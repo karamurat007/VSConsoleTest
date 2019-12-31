@@ -11,6 +11,8 @@ namespace ConsoleAppTest
         static void Main(string[] args)
         {
             Console.WriteLine("Konsol test");
+            Console.ReadKey();
+            Console.Beep(355, 5000);
         }
     }
 }
